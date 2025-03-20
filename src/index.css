@@ -29,15 +29,18 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+body.dark {
+  background: #121212;
+  color: white;
+}
 header {
   margin: 2rem 0;
   text-align: center;
 }
 
 header img {
-  width: 3rem;
-  height: 3rem;
+  width: 22rem;
+  height: 20rem;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.6));
 }
 
@@ -51,6 +54,22 @@ header h1 {
   background: linear-gradient(90deg, #e781fb 40%, #8e76fa 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+#linkbutton{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#linkbutton:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 #last-try {
