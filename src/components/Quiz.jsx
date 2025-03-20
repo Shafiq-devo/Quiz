@@ -5,7 +5,6 @@ import Question from "../Question";
 function Quiz() {
   const [useranswer, setuseranswer] = useState([]);
   const activequestion = useranswer.length;
-  // SHUFLLIN THE ANSWERS 
 
 
 // CHECKING IF ALL THE QUESTIONS ARE FINISHED
@@ -19,6 +18,8 @@ if(quiziscomplete){
     <h1>Quiz is completed</h1>
   </div>
 }
+  // SHUFLLIN THE ANSWERS 
+
 const shuffled=[...Questions[activequestion].answers];
 shuffled.sort(()=>Math.random()-0.5)
 
