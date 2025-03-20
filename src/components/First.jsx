@@ -21,7 +21,7 @@ function First() {
 
   return (
     <>
-      <p>Welcome to GitHub</p>
+      <p>Welcome to Quiz </p>
       <button id="linkbutton" onClick={toggleDarkMode}>
         {isdark ? "Light Mode" : "Dark Mode"}
       </button>
