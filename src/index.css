@@ -38,11 +38,12 @@ header {
   text-align: center;
 }
 
-header img {
+header img ,#imagequiz{
   width: 22rem;
   height: 20rem;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.6));
 }
+
 
 header h1 {
   font-family: 'Roboto Condensed', sans-serif;
